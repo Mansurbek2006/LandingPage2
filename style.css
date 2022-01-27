@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('./bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20px;
+  font-family: sans-serif;
+}
+
+.logo {
+  display: inline-block;
+  margin-left: 40px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+  margin: 0 10px;
+  transition: 0.7s;
+  text-transform: uppercase;
+}
+
+ul li:hover {
+  color: darkgrey;
+}
+
+ul {
+  display: inline-block;
+  margin-left: 90px;
+}
+
+.search-box {
+  display: inline-block;
+  border: 1px solid black;
+  background: none;
+  border-radius: 20px;
+  margin-left: 90px;
+  padding: 3px 8px;
+  box-sizing: border-box;
+}
+
+.search-box:hover {
+  border: 2px solid black;
+}
+
+.search-box img {
+  width: 20px;
+  height: 20px;
+}
+
+.search-box input {
+  background: none;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+.body-box {
+  display: block;
+  margin-left: 20px;
+  margin-top: 28%;
+}
+
+.body-box h1 {
+  font-size: 60px;
+}
+
+.body-box .buttons {
+  display: block;
+  margin-top: 20px;
+}
+
+.buttons button {
+  padding: 15px 50px;
+  border: 1px solid black;
+  border-radius: 30px;
+  background: none;
+  color: black;
+  font-weight: 700;
+  transition: 0.7s;
+  outline: none;
+}
+
+.buttons button:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.buttons button:last-child {
+  margin-left: 20px;
+}
